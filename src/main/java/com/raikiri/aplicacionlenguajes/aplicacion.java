@@ -8,11 +8,8 @@ package com.raikiri.aplicacionlenguajes;
  *
  * @author lutwi
  */
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.util.*;
+import java.io.*;
 
 public class aplicacion {
 
@@ -112,7 +109,7 @@ public class aplicacion {
             System.out.println("2. Registrar cadena");
             System.out.println("3. Exportar a TXT");
             System.out.println("4. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opcion: ");
 
             try {
                 opcion = Integer.parseInt(scanner.nextLine());
