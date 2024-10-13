@@ -1,0 +1,7 @@
+Alfabeto: [a, b, c, d, e, f]
+
+Cadenas aceptadas:
+abc
+
+Cadenas rechazadas:
+dddeg
