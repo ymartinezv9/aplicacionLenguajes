@@ -14,8 +14,7 @@ import java.io.*;
 public class aplicacion {
 
     private List<Character> alfabeto;
-    private List<String> cadenasAceptadas;
-    private List<String> cadenasRechazadas;
+    private List<String> cadenasAceptadas, cadenasRechazadas;
 
     // Constructor para inicializar las listas
     public aplicacion() {
